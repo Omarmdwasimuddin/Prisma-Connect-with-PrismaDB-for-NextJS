@@ -19,3 +19,9 @@ npm install @prisma/client @prisma/adapter-pg dotenv pg
 npx prisma init --output ../app/generated/prisma
 ```
 ---
+
+This will create:
+
+- A prisma directory with a schema.prisma file.
+- A prisma.config.ts file for configuring Prisma.
+- A .env file containing a local DATABASE_URL at the project root.
