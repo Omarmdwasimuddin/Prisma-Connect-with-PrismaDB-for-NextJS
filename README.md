@@ -28,8 +28,15 @@ This will create:
 
 The app/generated/prisma output directory for the generated Prisma Client will be created when you run prisma generate or prisma migrate dev in a later step.
 
-###
+### Create a Prisma Postgres database and replace the generated DATABASE_URL in your .env file with the postgres://... connection string from the CLI output:
 ```bash
 npx create-db
+```
+---
+
+### Run migrations and generate Prisma Client
+```bash
+npx prisma migrate dev --name init
+npx prisma generate
 ```
 ---
