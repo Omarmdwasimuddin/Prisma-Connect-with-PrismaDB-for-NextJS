@@ -13,3 +13,9 @@ npm install prisma tsx @types/pg --save-dev
 npm install @prisma/client @prisma/adapter-pg dotenv pg
 ```
 ---
+
+### Initialize Prisma in your project
+```bash
+npx prisma init --output ../app/generated/prisma
+```
+---
