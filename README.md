@@ -35,6 +35,8 @@ npx create-db
 ---
 ![](https://imgur.com/QTFm05H.png)
 
+### Connection String copy koro .env te paste koro
+
 ### Run migrations and generate Prisma Client
 ```bash
 npx prisma migrate dev --name init
